@@ -1,0 +1,6 @@
+
+
+
+
+
+"niggaaaaaaaa".indexOf("N")
