@@ -15,6 +15,10 @@ object FunTimes extends App{
 //  (Image.circle(400).below(Image.rectangle(200,500))).draw()
 //  Image.circle(100).fillColor(Color.red).noStroke.beside(Image.circle(100).strokeColor(Color.mediumVioletRed)).beside(Image.circle(100).strokeWidth(33)).on(Image.circle(300)).draw()
 
-Image.circle(100).fillColor(Color.black).on(Image.circle(200).fillColor(Color.cornflowerBlue)).on(Image.circle(280).fillColor(Color.white)).on(Image.circle(500).fillColor(Color.darkBlue)).draw()
+  //Evil eye masterpiece
+Image.circle(100).fillColor(Color.black).strokeWidth(3).on(Image.circle(200).strokeWidth(3).fillColor(Color.cornflowerBlue).strokeWidth(3)).on(Image.circle(280).fillColor(Color.white).strokeWidth(3)).on(Image.circle(500).fillColor(Color.darkBlue).strokeWidth(3)).draw()
 
+
+var a = 0.degrees
+  print(a)
 }
